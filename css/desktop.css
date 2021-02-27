@@ -1,0 +1,27 @@
+.categories-container {
+  justify-content: center;
+}
+.categories-container--icon {
+  margin-right: 15px;
+}
+.categories-container__section {
+  max-width: 800px;
+}
+.categories-container__section p {
+  display: inline-block;
+}
+.main-news-container {
+  display: flex;
+}
+.news-website-container {
+  width: 60%;
+}
+.sidebar {
+  width: 35%;
+}
+.eyefind-featured {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
