@@ -15,6 +15,9 @@ html {
   font-size: 62.5%;
   font-family: Arial, Helvetica, sans-serif;
 }
+a:hover {
+  cursor: url('./assets/icons/xp-middle-finger-2.cur'), pointer;
+}
 header {
   position: relative;
   width: 100%;
