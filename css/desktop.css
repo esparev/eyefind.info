@@ -10,7 +10,7 @@
 .categories-container__section p {
   display: inline-block;
 }
-.main-news-container {
+.main-container {
   display: flex;
 }
 .news-website-container {

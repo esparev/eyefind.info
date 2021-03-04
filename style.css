@@ -136,7 +136,7 @@ header {
 }
 .main-categories-container {
   width: 100%;
-  height: auto;
+  margin-bottom: 20px;
   border-bottom: 2px var(--dark-gray) solid;
   background-color: var(--gray-eye);
 }
@@ -206,18 +206,22 @@ header {
   text-decoration: none;
   color: black;
 }
-.main-news-container {
-  /* display: flex; */
+.main-container {
   width: 100%;
   min-width: 320px;
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   justify-content: space-evenly;
+}
+.search-result {
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+  margin-right: auto;
 }
 .news-website-container {
   width: 100%;
-  padding: 0 15px;
 }
 .news-story {
   width: 100%;
@@ -277,21 +281,33 @@ header {
   font-weight: normal;
   line-height: 1.8rem;
 }
+.website-minute__content--text a {
+  color: black;
+  text-decoration: none;
+}
+.website-minute__content--text a:hover {
+  color: var(--dark-blue);
+}
 .website-minute__content--text p:nth-last-child(1) {
   font-size: 1.3rem;
   color: rgb(78, 78, 78);
 } 
 .sidebar {
   width: 100%;
-  padding: 0 15px;
 }
 .sidebar__advert {
-  width: 100%;
+  width: auto;
   height: auto;
   padding: 5px;
   padding-bottom: 3px;
+  margin: 5px;
   margin-bottom: 15px;
   background-color: var(--blue-eye);
+}
+.sidebar__advert:hover {
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
 }
 .sidebar__advert img {
   margin-top: 5px;
@@ -302,6 +318,9 @@ header {
   text-align: center;
   color: var(--white-eye);
 }
+.sidebar__advert--clickable {
+  text-decoration: none;
+}
 .sidebar__bleets {
   width: 100%;
   padding: 10px;
@@ -310,6 +329,16 @@ header {
 }
 .bleets__header {
   display: flex;
+  margin-bottom: 5px;
+}
+.bleets__header span {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  background-image: url('./assets/icons/bleeter.png');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .bleets__header h2 {
   font-size: 1.8rem;
@@ -332,6 +361,12 @@ header {
   margin-bottom: 5px;
   border: none;
   background-color: var(--blue-eye);
+}
+.sidebar__bleets .sidebar__bleets--clickable {
+  color: black;
+}
+.sidebar__bleets .sidebar__bleets--clickable:hover span {
+  outline: 3px var(--blue-eye) solid;
 }
 .eyefind-featured {
   width: auto;
